@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_menu">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Главное меню</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButton_uroven1">
+        <property name="maximumSize">
+         <size>
+          <width>170</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Уровень 1</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_uroven2">
+        <property name="maximumSize">
+         <size>
+          <width>170</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Уровень 2</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="pushButton_uroven3">
+        <property name="maximumSize">
+         <size>
+          <width>170</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Уровень 3</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_uroven4">
+        <property name="maximumSize">
+         <size>
+          <width>170</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Уровень 4</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton_uroven5">
+        <property name="maximumSize">
+         <size>
+          <width>170</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Уровень 5</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_uroven6">
+        <property name="maximumSize">
+         <size>
+          <width>170</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Уровень 6</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>450</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
